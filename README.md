@@ -21,10 +21,13 @@ To set up BlackHole, follow these steps:
 1. Open Audio MIDI Setup on your Mac.
 2. Click the "+" button in the bottom left corner and select "Create Multi-Output Device".
 3. Check the boxes for your Mac's speaker and BlackHole 2ch.
-<img src="img/audio_midi.png" width="50%">
+
+<img src="img/audio_midi.png" width="70%">
+
 4. Open System Preferences and navigate to Sound.
 5. Change the sound output to the multi-output device you created.
-<img src="img/sound_set.png" width="50%">
+
+<img src="img/sound_set.png" width="70%">
 
 
 
