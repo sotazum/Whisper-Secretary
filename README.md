@@ -1,54 +1,7 @@
-<!-- # Whisper-Secretary
-Whisper is your secretary. You can record video meeting as text in your terminal.
-
-Whisper: https://github.com/openai/whisper 
-
-## Preparement
-
-### System preparement -->
-<!-- This repository is for Apple Silicon Mac. Use brew to install some packages. Setting below must be done to get speaker's output as mike's input in your Mac.
-
-```brew install ffmpeg```
-
-```brew install blackhole-2ch```
-
-BlackHole: https://github.com/ExistentialAudio/BlackHole 
-
-Then you should set Audio Midi Setting of your Mac.
-
-<img src="img/audio_midi.png" width="50%">
-
-Push + button (lower left) and add select "Create Multi-Output Device"
-
-Check the check boxes of Mac's speaker and BlackHole 2ch
-
-Then move to Sound setting from System Preference and change sound output into multi output device you made.
-
-<img src="img/sound_set.png" width="50%">
-
-### Python preparement
-Use Python 3.10.
-
-```brew install portaudio```
-
-```pip install -r requirements.txt``` 
-
-## Run!
-
-```python main.py```
-
-Your terminal becomes your secretary :)
-
-When stopping, please push ```control+C```
-
- -->
-
-
-
-
-
 # Whisper-Secretary
 Whisper-Secretary is a tool that allows you to record video meetings as text in your terminal. With Whisper-Secretary, you can keep a record of your meetings and easily search for important information without having to sift through lengthy video recordings.
+
+Whisper: https://github.com/openai/whisper 
 
 ## Getting Started
 ### System Requirements
@@ -58,6 +11,8 @@ Whisper-Secretary is designed for Apple Silicon Mac. To get started, you'll need
 brew install ffmpeg
 brew install blackhole-2ch
 ```
+
+BlackHole: https://github.com/ExistentialAudio/BlackHole 
 
 You'll also need to install BlackHole, which is a virtual audio device that allows you to capture the audio output from your Mac.
 
